@@ -1,11 +1,10 @@
-from PIL import Image
-import requests
-import textwrap
 import os
-
-import customtkinter as ctk
+import textwrap
 from tkinter import messagebox
 
+from PIL import Image
+import requests
+import customtkinter as ctk
 from pytube import YouTube
 
 ctk.set_appearance_mode("light")
